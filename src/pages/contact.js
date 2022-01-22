@@ -6,9 +6,14 @@ import StandardLayout from '../layouts/standard';
 import ExternalLink from '../components/external-link';
 import ContactForm from '../components/contact-form';
 
-const ContactPage = () => {
+const ContactPage = ({ location }) => {
   return (
     <StandardLayout>
+      <Meta
+        title="Contact | Siddharth Borderwala"
+        description="Contact Siddharth Borderwala, a full-stack developer specializing in front-end development. I will get back to you in a day!"
+        path={location.pathname}
+      />
       <div style={{ backgroundImage: 'url(/dot-grid.png)' }} className="pt-8">
         <div className="w-constraint flex flex-col md:flex-row">
           <header className="flex-1 md:mr-16">
