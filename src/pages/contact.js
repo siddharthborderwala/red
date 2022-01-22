@@ -5,6 +5,7 @@ import { Phone, EnvelopeSimpleOpen, HourglassMedium } from 'phosphor-react';
 import StandardLayout from '../layouts/standard';
 import ExternalLink from '../components/external-link';
 import ContactForm from '../components/contact-form';
+import { Meta } from '../components/seo';
 
 const ContactPage = ({ location }) => {
   return (
