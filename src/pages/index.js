@@ -103,7 +103,7 @@ const IndexPage = ({ location }) => {
             <Text>
               I am a Full-Stack JavaScript/TypeScript developer specializing in
               Reactjs, Nodejs, and the JAMStack ecosystem. I have worked on
-              projects solo, as well as led teams of upto 6 developers to
+              projects solo, as well as led teams of up to 6 developers to
               design, build and deploy production-grade web applications.
             </Text>
             <Text>
